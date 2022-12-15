@@ -127,7 +127,7 @@ export const getClaimedLeadsByCounsellor = async (req, res, next) => {
         let data;
         try {
             console.log(`leadId:${leadId}`);
-            data = await leads.findOne({ leadId });
+            data = await leads.findOne({ lead_id:leadId });
         }
         catch (err) {
             console.log(err);
