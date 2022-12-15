@@ -1,5 +1,5 @@
 import Counsellor from "../../Models/counsellor";
-
+import bcrypt from 'bcrypt';
 /* signup function  */
 export const signup = async (req, res, next) => {
 
