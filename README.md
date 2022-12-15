@@ -1,2 +1,2 @@
 # counsellorManagementSystem
-Developed a counsellorManagementSystem using Node,ExpressJs,MongoDB,JWT(authentication)
+Developed a CustomerRelationshipManagement using Node,ExpressJs,MongoDB,JWT(authentication)
