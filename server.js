@@ -11,6 +11,9 @@ const app = express();
 
 app.use(express.json());
 
+app.get("/",(req,res)=>{
+res.status(200).send("app is running....");
+});
 
 app.use("/consellor", counsellorRouter);
 
