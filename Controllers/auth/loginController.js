@@ -1,5 +1,5 @@
 
-import JwtService from "../../services/JWTservice";
+import JwtService from "../../services/JwtService";
 import bcrypt from "bcrypt";
 import counsellor from "../../Models/counsellor";
 
