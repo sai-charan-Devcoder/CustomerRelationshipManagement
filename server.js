@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
-import { verifyUser } from "./Controllers/auth/verifyUserController";
-import counsellor from "./Models/counsellor";
+import { verifyUser } from "./controllers/auth/verifyUserController";
+import counsellor from "./models/counsellor";
 import claimListRouter from "./routes/claimList-routes";
 import counsellorRouter from "./routes/counsellor-routes";
 import leadsRouter from "./routes/leads-routes";

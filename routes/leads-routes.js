@@ -1,6 +1,6 @@
 import express from 'express';
-import { verifyUser } from '../Controllers/auth/verifyUserController';
-import { addLead, getAllClaimedLeads, getAllUnclaimedLeads } from '../Controllers/leads-controller';
+import { verifyUser } from '../controllers/auth/verifyUserController';
+import { addLead, getAllClaimedLeads, getAllUnclaimedLeads } from '../controllers/leads-controller';
 
 const leadsRouter = express.Router();
 /* For Adding a lead/form entries -- User's authentication is not required   */

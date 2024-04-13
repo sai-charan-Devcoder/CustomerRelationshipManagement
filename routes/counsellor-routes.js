@@ -1,7 +1,7 @@
 import express from 'express';
-import { login } from '../Controllers/auth/loginController';
-import { signup } from '../Controllers/auth/registrationController';
-import { getAllCounsellor } from '../Controllers/counsellor-controller'
+import { login } from '../controllers/auth/loginController';
+import { signup } from '../controllers/auth/registrationController';
+import { getAllCounsellor } from '../controllers/counsellor-controller'
 
 const counsellorRouter = express.Router();
 
